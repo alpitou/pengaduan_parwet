@@ -21,8 +21,9 @@
     <div class="flex items-center flex-shrink-0 text-black mr-6">
       {{--<img src="{{ asset('img/logo.svg')}}" alt=""
         class="transform transition hover:scale-125 duration-300 ease-in-out" />--}}
-      <span class="font-bold tracking-wider text-xl">
-        &nbsp Parwet</span>
+      <span class="font-bold tracking-wider text-4xl">
+      Parwet
+      </span>
     </div>
     <div class="block lg:hidden">
       <button
@@ -35,10 +36,10 @@
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
       <div class="text-md lg:flex-grow">
-        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-black mr-4">
+        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-black text-3xl mr-4">
           Home
         </a>
-        <a href="#how" class="block mt-4 lg:inline-block lg:mt-0 text-black mr-4">
+        <a href="#how" class="block mt-4 lg:inline-block lg:mt-0 text-black text-3xl mr-4">
           Tata Cara
         </a>
       </div>
@@ -61,8 +62,8 @@
   <div class="pt-24 px-16 bg-blue-200">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
-      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left text-gray-800">
-        <h1 class="my-4 text-4xl font-bold leading-tight">
+      <div class="center"5>
+        <h1 class="my-4 text-6xl font-bold leading-tight">
           Layanan Pengaduan Masyarakat Online
         </h1>
         <p class="leading-normal text-1xl mb-8">
@@ -76,8 +77,7 @@
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 text-center">
-        <img class="object-fill mx-36 transform transition hover:scale-110 duration-300 ease-in-out"
-          src="{{ asset('img/hero.svg')}}" />
+        
       </div>
     </div>
   </div>

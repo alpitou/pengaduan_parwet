@@ -11440,7 +11440,7 @@ select {
 }
 
 .font-bold {
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 .font-extrabold {
@@ -11699,8 +11699,8 @@ select {
 }
 
 .text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 42px;
+  line-height: 30px;
 }
 
 .text-5xl {
