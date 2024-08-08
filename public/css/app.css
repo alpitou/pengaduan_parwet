@@ -2540,7 +2540,7 @@ select {
 
 .bg-blue-500 {
   --tw-bg-opacity: 1;
-  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+  background-color: rgba(43,45,66, var(--tw-bg-opacity));
 }
 
 .bg-blue-600 {
@@ -11076,7 +11076,7 @@ select {
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .flex-wrap-reverse {

@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Parakan Wetan</title>
+  <title>Pengaduan Parwet</title>
+
+  <link rel="icon" href="{{ asset('/assets/img/logo-temanggung.png')}}">
 
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-  <link rel="icon" href="{{ asset('img/saya.png')}}">
+  <!--link rel="icon" href="{{ asset('img/saya.png')}}"-->
   <style>
     html {
       scroll-behavior: smooth;
@@ -17,15 +19,15 @@
 
 <body class="leading-normal tracking-normal" style="font-family: 'Montserrat', sans-serif">
 
-  <nav class="flex items-center justify-between flex-wrap bg-blue-200 p-7 px-20">
+  <nav class="flex items-center justify-between flex-wrap bg-blue-500 p-7 px-20">
     <div class="flex items-center flex-shrink-0 text-black mr-6">
       {{--<img src="{{ asset('img/logo.svg')}}" alt=""
         class="transform transition hover:scale-125 duration-300 ease-in-out" />--}}
-      <span class="font-bold tracking-wider text-4xl">
+      <span class="font-bold tracking-wider text-4xl text-white">
       Parwet
       </span>
     </div>
-    <div class="block lg:hidden">
+    <!--div class="block lg:hidden">
       <button
         class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -33,23 +35,23 @@
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
         </svg>
       </button>
-    </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
+    </div-->
+    <!--div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
       <div class="text-md lg:flex-grow">
-        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-black text-3xl mr-4">
+        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-white text-2xl mr-4">
           Home
         </a>
-        <a href="#how" class="block mt-4 lg:inline-block lg:mt-0 text-black text-3xl mr-4">
+        <a href="#how" class="block mt-4 lg:inline-block lg:mt-0 text-white text-2xl mr-4">
           Tata Cara
         </a>
-      </div>
-      <div>
+      </div-->
+    <div>
         <button
-          class="text-black font-normal rounded-md py-3 border-black px-4 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          class="text-end text-white font-normal rounded-md py-3 border-black px-4 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           <a href="{{ url('login')}}">Masuk</a>
         </button>
         <button
-          class="text-blue-500 font-medium rounded-md py-3 px-4 border-2 border-white focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          class="text-white font-medium rounded-md py-3 px-4 border-2 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           <a href="{{ url('register')}}">Daftar</a>
         </button>
       </div>
@@ -62,11 +64,11 @@
   <div class="pt-24 px-16 bg-blue-200">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
-      <div class="center"5>
+      <div class="center">
         <h1 class="my-4 text-6xl font-bold leading-tight">
-          Layanan Pengaduan Masyarakat Online
+          Layanan Pengaduan Masyarakat Parakan Wetan
         </h1>
-        <p class="leading-normal text-1xl mb-8">
+        <p class="leading-normal text-2xl mb-8">
           Sampaikan laporan masalah Anda di sini, kami akan memprosesnya
           dengan cepat.
         </p>
@@ -157,7 +159,7 @@
   </div>
   <!-- Footer -->
   <footer class="text-center font-medium bg-blue-200 py-5">
-    © {{ now()->year }} Dibangun Oleh: <a rel="nofollow" href="https://www.instagram.com/infokejadian.parakanwetan/" title="CSS Templates">KKN TIM II UNDIP 2024 Parakan Wetan</a>
+    © {{ now()->year }} Dibangun oleh: <a rel="nofollow" href="https://www.instagram.com/infokejadian.parakanwetan/" title="CSS Templates">KKN TIM II UNDIP 2024 Parakan Wetan</a>
   </footer>
   @include('sweetalert::alert')
 </body>
